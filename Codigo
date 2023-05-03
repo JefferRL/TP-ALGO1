@@ -1,0 +1,938 @@
+#include<iostream>
+#include <cstdlib>
+#include<time.h>
+
+using namespace std;
+using namespace System;
+
+void Uno8(int dj6)
+{
+	Console::SetCursorPosition(61, 26);
+	cout << char(42);
+}
+
+void Dos8(int dj6)
+{
+	Console::SetCursorPosition(62, 26);
+	cout << char(42);
+	Console::SetCursorPosition(61, 27);
+	cout << char(42);
+}
+
+void Tres8(int dj6)
+{
+	Console::SetCursorPosition(63, 25);
+	cout << char(42);
+	Console::SetCursorPosition(62, 26);
+	cout << char(42);
+	Console::SetCursorPosition(61, 27);
+	cout << char(42);
+}
+
+void Cuatro8(int dj6)
+{
+	Console::SetCursorPosition(61, 25);
+	cout << char(42);
+	Console::SetCursorPosition(63, 25);
+	cout << char(42);
+	Console::SetCursorPosition(61, 27);
+	cout << char(42);
+	Console::SetCursorPosition(63, 27);
+	cout << char(42);
+}
+
+void Cinco8(int dj6)
+{
+	Console::SetCursorPosition(61, 25);
+	cout << char(42);
+	Console::SetCursorPosition(63, 25);
+	cout << char(42);
+	Console::SetCursorPosition(62, 26);
+	cout << char(42);
+	Console::SetCursorPosition(61, 27);
+	cout << char(42);
+	Console::SetCursorPosition(63, 27);
+	cout << char(42);
+}
+
+void Seis8(int dj6)
+{
+	Console::SetCursorPosition(61, 24);
+	cout << char(42);
+	Console::SetCursorPosition(64, 24);
+	cout << char(42);
+	Console::SetCursorPosition(61, 26);
+	cout << char(42);
+	Console::SetCursorPosition(64, 26);
+	cout << char(42);
+	Console::SetCursorPosition(61, 28);
+	cout << char(42);
+	Console::SetCursorPosition(64, 28);
+	cout << char(42);
+}
+
+void Uno7(int dj5)
+{
+	Console::SetCursorPosition(13, 26);
+	cout << char(42);
+}
+
+void Dos7(int dj5)
+{
+	Console::SetCursorPosition(14, 26);
+	cout << char(42);
+	Console::SetCursorPosition(13, 27);
+	cout << char(42);
+}
+
+void Tres7(int dj5)
+{
+	Console::SetCursorPosition(15, 25);
+	cout << char(42);
+	Console::SetCursorPosition(14, 26);
+	cout << char(42);
+	Console::SetCursorPosition(13, 27);
+	cout << char(42);
+}
+
+void Cuatro7(int dj5)
+{
+	Console::SetCursorPosition(13, 25);
+	cout << char(42);
+	Console::SetCursorPosition(15, 25);
+	cout << char(42);
+	Console::SetCursorPosition(13, 27);
+	cout << char(42);
+	Console::SetCursorPosition(15, 27);
+	cout << char(42);
+}
+
+void Cinco7(int dj5)
+{
+	Console::SetCursorPosition(13, 25);
+	cout << char(42);
+	Console::SetCursorPosition(15, 25);
+	cout << char(42);
+	Console::SetCursorPosition(14, 26);
+	cout << char(42);
+	Console::SetCursorPosition(13, 27);
+	cout << char(42);
+	Console::SetCursorPosition(15, 27);
+	cout << char(42);
+}
+
+void Seis7(int dj5)
+{
+	Console::SetCursorPosition(13, 24);
+	cout << char(42);
+	Console::SetCursorPosition(16, 24);
+	cout << char(42);
+	Console::SetCursorPosition(13, 26);
+	cout << char(42);
+	Console::SetCursorPosition(16, 26);
+	cout << char(42);
+	Console::SetCursorPosition(13, 28);
+	cout << char(42);
+	Console::SetCursorPosition(16, 28);
+	cout << char(42);
+}
+
+void Uno6(int dj4)
+{
+	Console::SetCursorPosition(61, 20);
+	cout << char(42);
+}
+
+void Dos6(int dj4)
+{
+	Console::SetCursorPosition(62, 20);
+	cout << char(42);
+	Console::SetCursorPosition(61, 21);
+	cout << char(42);
+}
+
+void Tres6(int dj4)
+{
+	Console::SetCursorPosition(63, 19);
+	cout << char(42);
+	Console::SetCursorPosition(62, 20);
+	cout << char(42);
+	Console::SetCursorPosition(61, 21);
+	cout << char(42);
+}
+
+void Cuatro6(int dj4)
+{
+	Console::SetCursorPosition(61, 19);
+	cout << char(42);
+	Console::SetCursorPosition(63, 19);
+	cout << char(42);
+	Console::SetCursorPosition(61, 21);
+	cout << char(42);
+	Console::SetCursorPosition(63, 21);
+	cout << char(42);
+}
+
+void Cinco6(int dj4)
+{
+	Console::SetCursorPosition(61, 19);
+	cout << char(42);
+	Console::SetCursorPosition(63, 19);
+	cout << char(42);
+	Console::SetCursorPosition(62, 20);
+	cout << char(42);
+	Console::SetCursorPosition(61, 21);
+	cout << char(42);
+	Console::SetCursorPosition(63, 21);
+	cout << char(42);
+}
+
+void Seis6(int dj4)
+{
+	Console::SetCursorPosition(61, 18);
+	cout << char(42);
+	Console::SetCursorPosition(64, 18);
+	cout << char(42);
+	Console::SetCursorPosition(61, 20);
+	cout << char(42);
+	Console::SetCursorPosition(64, 20);
+	cout << char(42);
+	Console::SetCursorPosition(61, 22);
+	cout << char(42);
+	Console::SetCursorPosition(64, 22);
+	cout << char(42);
+}
+
+void Uno5(int dj3)
+{
+	Console::SetCursorPosition(13, 20);
+	cout << char(42);
+}
+
+void Dos5(int dj3)
+{
+	Console::SetCursorPosition(14, 20);
+	cout << char(42);
+	Console::SetCursorPosition(13, 21);
+	cout << char(42);
+}
+
+void Tres5(int dj3)
+{
+	Console::SetCursorPosition(15, 19);
+	cout << char(42);
+	Console::SetCursorPosition(14, 20);
+	cout << char(42);
+	Console::SetCursorPosition(13, 21);
+	cout << char(42);
+}
+
+void Cuatro5(int dj3)
+{
+	Console::SetCursorPosition(13, 19);
+	cout << char(42);
+	Console::SetCursorPosition(15, 19);
+	cout << char(42);
+	Console::SetCursorPosition(13, 21);
+	cout << char(42);
+	Console::SetCursorPosition(15, 21);
+	cout << char(42);
+}
+
+void Cinco5(int dj3)
+{
+	Console::SetCursorPosition(13, 19);
+	cout << char(42);
+	Console::SetCursorPosition(15, 19);
+	cout << char(42);
+	Console::SetCursorPosition(14, 20);
+	cout << char(42);
+	Console::SetCursorPosition(13, 21);
+	cout << char(42);
+	Console::SetCursorPosition(15, 21);
+	cout << char(42);
+}
+
+void Seis5(int dj3)
+{
+	Console::SetCursorPosition(13, 18);
+	cout << char(42);
+	Console::SetCursorPosition(16, 18);
+	cout << char(42);
+	Console::SetCursorPosition(13, 20);
+	cout << char(42);
+	Console::SetCursorPosition(16, 20);
+	cout << char(42);
+	Console::SetCursorPosition(13, 22);
+	cout << char(42);
+	Console::SetCursorPosition(16, 22);
+	cout << char(42);
+}
+
+void Uno4(int dj2)
+{
+	Console::SetCursorPosition(61, 12);
+	cout << char(42);
+}
+
+void Dos4(int dj2)
+{
+	Console::SetCursorPosition(62, 12);
+	cout << char(42);
+	Console::SetCursorPosition(61, 13);
+	cout << char(42);
+}
+
+void Tres4(int dj2)
+{
+	Console::SetCursorPosition(63, 11);
+	cout << char(42);
+	Console::SetCursorPosition(62, 12);
+	cout << char(42);
+	Console::SetCursorPosition(61, 13);
+	cout << char(42);
+}
+
+void Cuatro4(int dj2)
+{
+	Console::SetCursorPosition(61, 11);
+	cout << char(42);
+	Console::SetCursorPosition(63, 11);
+	cout << char(42);
+	Console::SetCursorPosition(61, 13);
+	cout << char(42);
+	Console::SetCursorPosition(63, 13);
+	cout << char(42);
+}
+
+void Cinco4(int dj2)
+{
+	Console::SetCursorPosition(61, 11);
+	cout << char(42);
+	Console::SetCursorPosition(63, 11);
+	cout << char(42);
+	Console::SetCursorPosition(62, 12);
+	cout << char(42);
+	Console::SetCursorPosition(61, 13);
+	cout << char(42);
+	Console::SetCursorPosition(63, 13);
+	cout << char(42);
+}
+
+void Seis4(int dj2)
+{
+	Console::SetCursorPosition(61, 11);
+	cout << char(42);
+	Console::SetCursorPosition(64, 11);
+	cout << char(42);
+	Console::SetCursorPosition(61, 13);
+	cout << char(42);
+	Console::SetCursorPosition(64, 13);
+	cout << char(42);
+	Console::SetCursorPosition(61, 15);
+	cout << char(42);
+	Console::SetCursorPosition(64, 15);
+	cout << char(42);
+}
+
+void Uno3(int dj)
+{
+	Console::SetCursorPosition(13, 12);
+	cout << char(42);
+}
+
+void Dos3(int dj)
+{
+	Console::SetCursorPosition(14, 12);
+	cout << char(42);
+	Console::SetCursorPosition(13, 13);
+	cout << char(42);
+}
+
+void Tres3(int dj)
+{
+	Console::SetCursorPosition(15, 11);
+	cout << char(42);
+	Console::SetCursorPosition(14, 12);
+	cout << char(42);
+	Console::SetCursorPosition(13, 13);
+	cout << char(42);
+}
+
+void Cuatro3(int dj)
+{
+	Console::SetCursorPosition(13, 11);
+	cout << char(42);
+	Console::SetCursorPosition(15, 11);
+	cout << char(42);
+	Console::SetCursorPosition(13, 13);
+	cout << char(42);
+	Console::SetCursorPosition(15, 13);
+	cout << char(42);
+}
+
+void Cinco3(int dj)
+{
+	Console::SetCursorPosition(13, 11);
+	cout << char(42);
+	Console::SetCursorPosition(15, 11);
+	cout << char(42);
+	Console::SetCursorPosition(14, 12);
+	cout << char(42);
+	Console::SetCursorPosition(13, 13);
+	cout << char(42);
+	Console::SetCursorPosition(15, 13);
+	cout << char(42);
+}
+void Seis3(int dj)
+{
+
+	Console::SetCursorPosition(13, 11);
+	cout << char(42);
+	Console::SetCursorPosition(16, 11);
+	cout << char(42);
+	Console::SetCursorPosition(13, 13);
+	cout << char(42);
+	Console::SetCursorPosition(16, 13);
+	cout << char(42);
+	Console::SetCursorPosition(13, 15);
+	cout << char(42);
+	Console::SetCursorPosition(16, 15);
+	cout << char(42);
+}
+
+void Uno2(int n2)
+{
+	Console::SetCursorPosition(40, 2);
+	cout << char(42);
+}
+
+void Dos2(int n2)
+{
+	Console::SetCursorPosition(40, 2);
+	cout << char(42);
+	Console::SetCursorPosition(39, 3);
+	cout << char(42);
+}
+
+void Tres2(int n2)
+{
+	Console::SetCursorPosition(41, 1);
+	cout << char(42);
+	Console::SetCursorPosition(40, 2);
+	cout << char(42);
+	Console::SetCursorPosition(39, 3);
+	cout << char(42);
+}
+
+void Cuatro2(int n2)
+{
+	Console::SetCursorPosition(39, 1);
+	cout << char(42);
+	Console::SetCursorPosition(41, 1);
+	cout << char(42);
+	Console::SetCursorPosition(39, 3);
+	cout << char(42);
+	Console::SetCursorPosition(41, 3);
+	cout << char(42);
+}
+
+void Cinco2(int n2)
+{
+	Console::SetCursorPosition(39, 1);
+	cout << char(42);
+	Console::SetCursorPosition(41, 1);
+	cout << char(42);
+	Console::SetCursorPosition(40, 2);
+	cout << char(42);
+	Console::SetCursorPosition(39, 3);
+	cout << char(42);
+	Console::SetCursorPosition(41, 3);
+	cout << char(42);
+}
+
+void Seis2(int n2)
+{
+	Console::SetCursorPosition(39, 1);
+	cout << char(42);
+	Console::SetCursorPosition(42, 1);
+	cout << char(42);
+	Console::SetCursorPosition(39, 3);
+	cout << char(42);
+	Console::SetCursorPosition(42, 3);
+	cout << char(42);
+	Console::SetCursorPosition(39, 5);
+	cout << char(42);
+	Console::SetCursorPosition(42, 5);
+	cout << char(42);
+}
+
+void Uno1(int n1)
+{
+	Console::SetCursorPosition(30, 2);
+	cout << char(42);
+}
+
+void Dos1(int n1)
+{
+	Console::SetCursorPosition(30, 2);
+	cout << char(42);
+	Console::SetCursorPosition(29, 3);
+	cout << char(42);
+}
+
+void Tres1(int n1)
+{
+	Console::SetCursorPosition(31, 1);
+	cout << char(42);
+	Console::SetCursorPosition(30, 2);
+	cout << char(42);
+	Console::SetCursorPosition(29, 3);
+	cout << char(42);
+}
+
+void Cuatro1(int n1)
+{
+	Console::SetCursorPosition(29, 1);
+	cout << char(42);
+	Console::SetCursorPosition(31, 1);
+	cout << char(42);
+	Console::SetCursorPosition(29, 3);
+	cout << char(42);
+	Console::SetCursorPosition(31, 3);
+	cout << char(42);
+}
+
+void Cinco1(int n1)
+{
+	Console::SetCursorPosition(29, 1);
+	cout << char(42);
+	Console::SetCursorPosition(31, 1);
+	cout << char(42);
+	Console::SetCursorPosition(30, 2);
+	cout << char(42);
+	Console::SetCursorPosition(29, 3);
+	cout << char(42);
+	Console::SetCursorPosition(31, 3);
+	cout << char(42);
+}
+
+void Seis1(int n1)
+{
+	Console::SetCursorPosition(29, 1);
+	cout << char(42);
+	Console::SetCursorPosition(32, 1);
+	cout << char(42);
+	Console::SetCursorPosition(29, 3);
+	cout << char(42);
+	Console::SetCursorPosition(32, 3);
+	cout << char(42);
+	Console::SetCursorPosition(29, 5);
+	cout << char(42);
+	Console::SetCursorPosition(32, 5);
+	cout << char(42);
+}
+
+void Uno(int n)
+{
+	Console::SetCursorPosition(20, 2);
+	cout << char(42);
+}
+
+void Dos(int n)
+{
+	Console::SetCursorPosition(20, 2);
+	cout << char(42);
+	Console::SetCursorPosition(19, 3);
+	cout << char(42);
+}
+
+void Tres(int n)
+{
+	Console::SetCursorPosition(21, 1);
+	cout << char(42);
+	Console::SetCursorPosition(20, 2);
+	cout << char(42);
+	Console::SetCursorPosition(19, 3);
+	cout << char(42);
+}
+
+void Cuatro(int n)
+{
+	Console::SetCursorPosition(19, 1);
+	cout << char(42);
+	Console::SetCursorPosition(21, 1);
+	cout << char(42);
+	Console::SetCursorPosition(19, 3);
+	cout << char(42);
+	Console::SetCursorPosition(21, 3);
+	cout << char(42);
+}
+
+void Cinco(int n)
+{
+	Console::SetCursorPosition(19, 1);
+	cout << char(42);
+	Console::SetCursorPosition(21, 1);
+	cout << char(42);
+	Console::SetCursorPosition(20, 2);
+	cout << char(42);
+	Console::SetCursorPosition(19, 3);
+	cout << char(42);
+	Console::SetCursorPosition(21, 3);
+	cout << char(42);
+}
+
+void Seis(int n)
+{
+	Console::SetCursorPosition(19, 1);
+	cout << char(42);
+	Console::SetCursorPosition(22, 1);
+	cout << char(42);
+	Console::SetCursorPosition(19, 3);
+	cout << char(42);
+	Console::SetCursorPosition(22, 3);
+	cout << char(42);
+	Console::SetCursorPosition(19, 5);
+	cout << char(42);
+	Console::SetCursorPosition(22, 5);
+	cout << char(42);
+}
+
+void Ganador_de_partida(int n, int n1, int n2, int dj, int dj2, int dj3, int dj4, int dj5, int dj6)
+{
+	int ganador_final_j = 0, ganador_final_c = 0;
+
+
+	if (dj2 + dj4 + dj6 == n + n1 + n2)
+	{
+		cout << "\t\tGanador de esta ronda: Computadora" << endl;
+		ganador_final_c++;
+	}
+	else if (dj + dj3 + dj5 == n + n1 + n2)
+	{
+		cout << "\t\tGanador de esta ronda: Jugador" << endl;
+		ganador_final_j++;
+	}
+	else if (dj2 + dj4 + dj6 != n + n1 + n2 || dj + dj3 + dj5 != n + n1 + n2)
+	{
+		cout << "\t\tGanador: Ninguno" << endl;
+	}
+
+	if (ganador_final_c > ganador_final_j)
+	{
+		cout << "El ganador es el computador" << endl;
+	}
+	else if (ganador_final_c < ganador_final_j)
+	{
+		cout << "El ganador es el jugador" << endl;
+	}
+}
+
+int main()
+{
+	Console::ForegroundColor = ConsoleColor::Green;
+	system("mode con: cols=140 lines=40");
+
+	int n, n1, n2;
+	int dj, dj2, dj3, dj4, dj5, dj6;
+	int repeticiones = 1;
+	int ganador_final_j = 0, ganador_final_c = 0;
+
+	while (repeticiones < 11)
+	{
+		srand(time(nullptr));
+		n = 1 + rand() % 6;
+		n1 = 1 + rand() % 6;
+		n2 = 1 + rand() % 6;
+		dj = 1 + rand() % 6;
+		dj2 = 1 + rand() % 6;
+		dj3 = 1 + rand() % 6;
+		dj4 = 1 + rand() % 6;
+		dj5 = 1 + rand() % 6;
+		dj6 = 1 + rand() % 6;
+
+		cout << "Dado 1: " << n << endl;
+		cout << "Dado 2: " << n1 << endl;
+		cout << "Dado 3: " << n2 << endl;
+		cout << "Valor random: " << n + n1 + n2 << endl;
+
+		cout << "\n\n\nJugador ";
+		cout << "\t\t\t\t\tComputadora " << endl;
+		cout << "\nDado 1:" << dj;
+		cout << "\t\t\t\t\tDado 1:" << dj2 << endl;
+		cout << "\n\n\n\n\n\nDado 2:" << dj3;
+		cout << "\t\t\t\t\tDado 2:" << dj4 << endl;
+		cout << "\n\n\n\n\n\nDado 3:" << dj5;
+		cout << "\t\t\t\t\tDado 3:" << dj6 << endl;
+		cout << "\n\n\n\n\nLa suma de los dados del jugador es: " << dj + dj3 + dj5;
+		cout << "\t\tLa suma de los dados de la computadora es: " << dj2 + dj4 + dj6;
+		if (dj2 + dj4 + dj6 == n + n1 + n2)
+		{
+			cout << "\t\tGanador de esta ronda: Computadora" << endl;
+			ganador_final_c++;
+		}
+		else if (dj + dj3 + dj5 == n + n1 + n2)
+		{
+			cout << "\t\tGanador de esta ronda: Jugador" << endl;
+			ganador_final_j++;
+		}
+		else if (dj2 + dj4 + dj6 != n + n1 + n2 || dj + dj3 + dj5 != n + n1 + n2)
+		{
+			cout << "\t\tGanador: Ninguno" << endl;
+		}
+
+
+		if (dj6 == 1)
+		{
+			Uno8(dj6);
+		}
+		else if (dj6 == 2)
+		{
+			Dos8(dj6);
+		}
+		else if (dj6 == 3)
+		{
+			Tres8(dj6);
+		}
+		else if (dj6 == 4)
+		{
+			Cuatro8(dj6);
+		}
+		else if (dj6 == 5)
+		{
+			Cinco8(dj6);
+		}
+		else if (dj6 == 6)
+		{
+			Seis8(dj6);
+		}
+
+		if (dj5 == 1)
+		{
+			Uno7(dj5);
+		}
+		else if (dj5 == 2)
+		{
+			Dos7(dj5);
+		}
+		else if (dj5 == 3)
+		{
+			Tres7(dj5);
+		}
+		else if (dj5 == 4)
+		{
+			Cuatro7(dj5);
+		}
+		else if (dj5 == 5)
+		{
+			Cinco7(dj5);
+		}
+		else if (dj5 == 6)
+		{
+			Seis7(dj5);
+		}
+
+		if (dj4 == 1)
+		{
+			Uno6(dj4);
+		}
+		else if (dj4 == 2)
+		{
+			Dos6(dj4);
+		}
+		else if (dj4 == 3)
+		{
+			Tres6(dj4);
+		}
+		else if (dj4 == 4)
+		{
+			Cuatro6(dj4);
+		}
+		else if (dj4 == 5)
+		{
+			Cinco6(dj4);
+		}
+		else if (dj4 == 6)
+		{
+			Seis6(dj4);
+		}
+
+		if (dj3 == 1)
+		{
+			Uno5(dj3);
+		}
+		else if (dj3 == 2)
+		{
+			Dos5(dj3);
+		}
+		else if (dj3 == 3)
+		{
+			Tres5(dj3);
+		}
+		else if (dj3 == 4)
+		{
+			Cuatro5(dj3);
+		}
+		else if (dj3 == 5)
+		{
+			Cinco5(dj3);
+		}
+		else if (dj3 == 6)
+		{
+			Seis5(dj3);
+		}
+
+
+		if (dj2 == 1)
+		{
+			Uno4(dj2);
+		}
+		else if (dj2 == 2)
+		{
+			Dos4(dj2);
+		}
+		else if (dj2 == 3)
+		{
+			Tres4(dj2);
+		}
+		else if (dj2 == 4)
+		{
+			Cuatro4(dj2);
+		}
+		else if (dj2 == 5)
+		{
+			Cinco4(dj2);
+		}
+		else if (dj2 == 6)
+		{
+			Seis4(dj2);
+		}
+
+		if (dj == 1)
+		{
+			Uno3(dj);
+		}
+		else if (dj == 2)
+		{
+			Dos3(dj);
+		}
+		else if (dj == 3)
+		{
+			Tres3(dj);
+		}
+		else if (dj == 4)
+		{
+			Cuatro3(dj);
+		}
+		else if (dj == 5)
+		{
+			Cinco3(dj);
+		}
+		else if (dj == 6)
+		{
+			Seis3(dj);
+		}
+
+		if (n2 == 1)
+		{
+			Uno2(n2);
+		}
+		else if (n2 == 2)
+		{
+			Dos2(n2);
+		}
+		else if (n2 == 3)
+		{
+			Tres2(n2);
+		}
+		else if (n2 == 4)
+		{
+			Cuatro2(n2);
+		}
+		else if (n2 == 5)
+		{
+			Cinco2(n2);
+		}
+		else if (n2 == 6)
+		{
+			Seis2(n2);
+		}
+
+		if (n1 == 1)
+		{
+			Uno1(n1);
+		}
+		else if (n1 == 2)
+		{
+			Dos1(n1);
+		}
+		else if (n1 == 3)
+		{
+			Tres1(n1);
+		}
+		else if (n1 == 4)
+		{
+			Cuatro1(n1);
+		}
+		else if (n1 == 5)
+		{
+			Cinco1(n1);
+		}
+		else if (n1 == 6)
+		{
+			Seis1(n1);
+		}
+
+
+		if (n == 1)
+		{
+			Uno(n);
+		}
+		else if (n == 2)
+		{
+			Dos(n);
+		}
+		else if (n == 3)
+		{
+			Tres(n);
+		}
+		else if (n == 4)
+		{
+			Cuatro(n);
+		}
+		else if (n == 5)
+		{
+			Cinco(n);
+		}
+		else if (n == 6)
+		{
+			Seis(n);
+		}
+
+		_sleep(2000);
+		repeticiones++;
+		system("cls");
+	}
+
+
+	Console::SetCursorPosition(60, 10);
+
+
+	if (ganador_final_c > ganador_final_j)
+	{
+		cout << "El ganador es el computador" << endl;
+	}
+	else if (ganador_final_c < ganador_final_j)
+	{
+		cout << "El ganador es el jugador" << endl;
+	}
+	else if (ganador_final_c == ganador_final_j)
+	{
+		cout << "Es un empate" << endl;
+	}
+
+
+	system("pause >> null");
+	return 0;
+}
